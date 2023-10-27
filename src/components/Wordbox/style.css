@@ -11,9 +11,15 @@
   line-height: 16px;
   border-radius: 8px;
   z-index: 1;
+  opacity: 0.5;
 }
 
 .wordbox--mistake {
   background-color: #e64747;
   color: white;
+}
+
+.wordbox.active {
+  outline: 3px solid darkgreen;
+  opacity: 1;
 }

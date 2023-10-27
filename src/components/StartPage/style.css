@@ -1,0 +1,38 @@
+label {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    width: 50%;
+}
+
+select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 40%;
+}
+
+.game-selection {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.start-button {
+    margin: 10rem auto;
+    width: 20%;
+}
+
+button {
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}

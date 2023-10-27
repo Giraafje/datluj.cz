@@ -12,7 +12,7 @@ const Wordbox = ({ word, onFinish, active, onMistake }) => {
             setMistake(false)
           } else {
             setMistake(true)
-            onMistake()
+            onMistake(word)
           }
       }
       if (active) {
@@ -25,7 +25,7 @@ const Wordbox = ({ word, onFinish, active, onMistake }) => {
   }, [lettersLeft, active, onMistake]);
   
   return (
-    <div className={mistake ? "wordbox--mistake" : "wordbox"}>{lettersLeft}</div>
+    <div className={mistake ? "wordbox--mistake" : active ? "wordbox active": "wordbox"}>{lettersLeft}</div>
   );
 };
 

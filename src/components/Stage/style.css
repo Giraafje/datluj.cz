@@ -11,9 +11,22 @@
   margin-bottom: 64px;
 }
 
+.stage__mistakes span {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .stage__words {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.stage__timer {
+  text-align: center;
+  margin-top: 64px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: red;
 }
