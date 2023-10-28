@@ -20,7 +20,7 @@ const generateWord = (size) => {
 
 const Stage = () => {
   const gameType = Number(useParams().type)
-  const [words, setWords] = useState(['jahoda', 'malina', 'jablko']);
+  const [words, setWords] = useState([generateWord(6), generateWord(6), generateWord(6)]);
   const [mistakes, setMistakes] = useState(0)
   const [wordsCount, setWordsCount] = useState(0)
   const [wordsWithTypo, setWordsWithTypo] = useState([])
